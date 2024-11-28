@@ -5,8 +5,8 @@ def graphmaker(male_scores, female_scores, year, subject):
 
   x_values = np.arange(1, len(male_scores) + 1)
 
-  plt.plot(x_values, male_scores, label='남자', marker='o')  
-  plt.plot(x_values, female_scores, label='여자', marker='x')     
+  plt.plot(x_values, male_scores, label='남자')  
+  plt.plot(x_values, female_scores, label='여자')     
   
 
   
