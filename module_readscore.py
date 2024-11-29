@@ -10,7 +10,7 @@ for i in data["유형"]:
 subject = input("과목: ")
 filtered_data = data[data['유형'] == subject]
 
-scores = filtered_data['표준점수'].tolist()
+
 male_count = filtered_data['남자'].tolist()
 female_count = filtered_data['여자'].tolist()
 
