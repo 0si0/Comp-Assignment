@@ -22,7 +22,7 @@ def graphmaker(male_scores, female_scores, year, subject, max_score):
 
   
   plt.xlabel('표준점수')   
-  plt.xlim(0, max_score)
+  plt.xlim(max_score - len(male_scores) , max_score + 1)
   
   plt.legend()  
 
