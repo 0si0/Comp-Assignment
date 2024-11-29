@@ -4,7 +4,7 @@ file_path = '20231231.csv'
 data = pd.read_csv(file_path, encoding='cp949')
 
 subject_category = set()
-for i in data[""]:
+for i in data["유형"]:
   subject_category.add(i)
 
 subject = input("과목: ")
