@@ -18,7 +18,7 @@ def graphmaker(male_scores, female_scores, year, subject, max_score):
   
 
   
-  plt.title(f'{year}학년도 수능 {subject}과목분포')  
+  plt.title(f'{year}학년도 수능 {subject} 과목분포')  
 
   
   plt.xlabel('표준점수')   
